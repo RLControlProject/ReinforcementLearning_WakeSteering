@@ -1,0 +1,220 @@
+/opt/cray/pe/lmod/lmod/init/bash: line 187: mamba: command not found
+/kfs2/projects/rlfarmcontr/RLControl_Phase1End/RLControl/submodules/stable-baselines3/stable_baselines3/common/vec_env/vec_monitor.py:44: UserWarning: The environment is already wrapped with a `Monitor` wrapperbut you are wrapping it with a `VecMonitor` wrapper, the `Monitor` statistics will beoverwritten by the `VecMonitor` ones.
+  warnings.warn(
+Importing best hyperparameters:
+   learning_rate  train_freq  ent_coef  target_entropy_multiplier         0
+0       0.000268          21  0.001364                   0.503889  0.269075
+Num timesteps: 10
+Previous best mean reward: -inf - Current mean reward per episode: 5.99
+Saving new best model to /kfs2/projects/rlfarmcontr/202508/SmallFarm/Runs/Group3/Seed6/yawseeds1_dropoutlastturbine/sac_output/trials/trial_5_10env_1_1/best_model
+/kfs2/projects/rlfarmcontr/202508/SmallFarm/Runs/Group3/Seed6/yawseeds1_dropoutlastturbine/sac_output/trials/trial_5_10env_1_1/best_model
+Num timesteps: 20
+Previous best mean reward: 5.99 - Current mean reward per episode: 0.25
+Num timesteps: 30
+Previous best mean reward: 5.99 - Current mean reward per episode: 2.37
+Num timesteps: 40
+Previous best mean reward: 5.99 - Current mean reward per episode: 2.11
+Num timesteps: 50
+Previous best mean reward: 5.99 - Current mean reward per episode: 1.89
+Num timesteps: 60
+Previous best mean reward: 5.99 - Current mean reward per episode: -1.87
+Num timesteps: 70
+Previous best mean reward: 5.99 - Current mean reward per episode: 3.07
+Num timesteps: 80
+Previous best mean reward: 5.99 - Current mean reward per episode: 6.59
+Saving new best model to /kfs2/projects/rlfarmcontr/202508/SmallFarm/Runs/Group3/Seed6/yawseeds1_dropoutlastturbine/sac_output/trials/trial_5_10env_1_1/best_model
+/kfs2/projects/rlfarmcontr/202508/SmallFarm/Runs/Group3/Seed6/yawseeds1_dropoutlastturbine/sac_output/trials/trial_5_10env_1_1/best_model
+Num timesteps: 90
+Previous best mean reward: 6.59 - Current mean reward per episode: 3.95
+Num timesteps: 100
+Previous best mean reward: 6.59 - Current mean reward per episode: 2.21
+Num timesteps: 110
+Previous best mean reward: 6.59 - Current mean reward per episode: -43.42
+Num timesteps: 120
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.17
+Num timesteps: 130
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.90
+Num timesteps: 140
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.82
+Num timesteps: 150
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.30
+Num timesteps: 160
+Previous best mean reward: 6.59 - Current mean reward per episode: -45.61
+Num timesteps: 170
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.78
+Num timesteps: 180
+Previous best mean reward: 6.59 - Current mean reward per episode: -28.33
+Num timesteps: 190
+Previous best mean reward: 6.59 - Current mean reward per episode: -41.59
+Num timesteps: 200
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.74
+Num timesteps: 210
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.83
+Num timesteps: 220
+Previous best mean reward: 6.59 - Current mean reward per episode: -41.04
+Num timesteps: 230
+Previous best mean reward: 6.59 - Current mean reward per episode: -26.78
+Num timesteps: 240
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.87
+Num timesteps: 250
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.68
+Num timesteps: 260
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.68
+Num timesteps: 270
+Previous best mean reward: 6.59 - Current mean reward per episode: -32.45
+Num timesteps: 280
+Previous best mean reward: 6.59 - Current mean reward per episode: -28.63
+Num timesteps: 290
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.00
+Num timesteps: 300
+Previous best mean reward: 6.59 - Current mean reward per episode: -32.90
+Num timesteps: 310
+Previous best mean reward: 6.59 - Current mean reward per episode: -30.41
+Num timesteps: 320
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.49
+Num timesteps: 330
+Previous best mean reward: 6.59 - Current mean reward per episode: -42.44
+Num timesteps: 340
+Previous best mean reward: 6.59 - Current mean reward per episode: -32.73
+Num timesteps: 350
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.42
+Num timesteps: 360
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.31
+Num timesteps: 370
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.51
+Num timesteps: 380
+Previous best mean reward: 6.59 - Current mean reward per episode: -30.46
+Num timesteps: 390
+Previous best mean reward: 6.59 - Current mean reward per episode: -31.97
+Num timesteps: 400
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.32
+Num timesteps: 410
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.51
+Num timesteps: 420
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.33
+Num timesteps: 430
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.07
+Num timesteps: 440
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.82
+Num timesteps: 450
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.11
+Num timesteps: 460
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.82
+Num timesteps: 470
+Previous best mean reward: 6.59 - Current mean reward per episode: -32.88
+Num timesteps: 480
+Previous best mean reward: 6.59 - Current mean reward per episode: -28.84
+Num timesteps: 490
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.82
+Num timesteps: 500
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.68
+Num timesteps: 510
+Previous best mean reward: 6.59 - Current mean reward per episode: -32.59
+Num timesteps: 520
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.45
+Num timesteps: 530
+Previous best mean reward: 6.59 - Current mean reward per episode: -39.15
+Num timesteps: 540
+Previous best mean reward: 6.59 - Current mean reward per episode: -25.40
+Num timesteps: 550
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.54
+Num timesteps: 560
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.63
+Num timesteps: 570
+Previous best mean reward: 6.59 - Current mean reward per episode: -39.10
+Num timesteps: 580
+Previous best mean reward: 6.59 - Current mean reward per episode: -41.84
+Num timesteps: 590
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.19
+Num timesteps: 600
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.47
+Num timesteps: 610
+Previous best mean reward: 6.59 - Current mean reward per episode: -29.90
+Num timesteps: 620
+Previous best mean reward: 6.59 - Current mean reward per episode: -43.74
+Num timesteps: 630
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.39
+Num timesteps: 640
+Previous best mean reward: 6.59 - Current mean reward per episode: -31.14
+Num timesteps: 650
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.00
+Num timesteps: 660
+Previous best mean reward: 6.59 - Current mean reward per episode: -32.09
+Num timesteps: 670
+Previous best mean reward: 6.59 - Current mean reward per episode: -39.41
+Num timesteps: 680
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.47
+Num timesteps: 690
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.66
+Num timesteps: 700
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.11
+Num timesteps: 710
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.88
+Num timesteps: 720
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.83
+Num timesteps: 730
+Previous best mean reward: 6.59 - Current mean reward per episode: -39.29
+Num timesteps: 740
+Previous best mean reward: 6.59 - Current mean reward per episode: -44.76
+Num timesteps: 750
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.16
+Num timesteps: 760
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.69
+Num timesteps: 770
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.41
+Num timesteps: 780
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.34
+Num timesteps: 790
+Previous best mean reward: 6.59 - Current mean reward per episode: -42.50
+Num timesteps: 800
+Previous best mean reward: 6.59 - Current mean reward per episode: -40.91
+Num timesteps: 810
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.92
+Num timesteps: 820
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.18
+Num timesteps: 830
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.76
+Num timesteps: 840
+Previous best mean reward: 6.59 - Current mean reward per episode: -31.53
+Num timesteps: 850
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.06
+Num timesteps: 860
+Previous best mean reward: 6.59 - Current mean reward per episode: -33.11
+Num timesteps: 870
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.23
+Num timesteps: 880
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.33
+Num timesteps: 890
+Previous best mean reward: 6.59 - Current mean reward per episode: -42.15
+Num timesteps: 900
+Previous best mean reward: 6.59 - Current mean reward per episode: -47.26
+Num timesteps: 910
+Previous best mean reward: 6.59 - Current mean reward per episode: -28.94
+Num timesteps: 920
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.19
+Num timesteps: 930
+Previous best mean reward: 6.59 - Current mean reward per episode: -42.87
+Num timesteps: 940
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.87
+Num timesteps: 950
+Previous best mean reward: 6.59 - Current mean reward per episode: -36.15
+Num timesteps: 960
+Previous best mean reward: 6.59 - Current mean reward per episode: -38.81
+Num timesteps: 970
+Previous best mean reward: 6.59 - Current mean reward per episode: -42.18
+Num timesteps: 980
+Previous best mean reward: 6.59 - Current mean reward per episode: -31.91
+Num timesteps: 990
+Previous best mean reward: 6.59 - Current mean reward per episode: -43.23
+Num timesteps: 1000
+Previous best mean reward: 6.59 - Current mean reward per episode: -35.95
+Num timesteps: 1010
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.19
+Num timesteps: 1020
+Previous best mean reward: 6.59 - Current mean reward per episode: -28.50
+Num timesteps: 1030
+Previous best mean reward: 6.59 - Current mean reward per episode: -31.92
+Num timesteps: 1040
+Previous best mean reward: 6.59 - Current mean reward per episode: -34.12
+Num timesteps: 1050
+Previous best mean reward: 6.59 - Current mean reward per episode: -37.73

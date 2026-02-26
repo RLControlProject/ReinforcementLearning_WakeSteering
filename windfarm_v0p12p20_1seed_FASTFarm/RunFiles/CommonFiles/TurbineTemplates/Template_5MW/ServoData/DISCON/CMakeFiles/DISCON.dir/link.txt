@@ -1,0 +1,1 @@
+/opt/cray/pe/craype/2.7.30/bin/ftn -h PIC  -DIMPLICIT_DLLEXPORT -shared -Wl,-soname,DISCON.dll -o DISCON.dll CMakeFiles/DISCON.dir/DISCON.F90.o 
