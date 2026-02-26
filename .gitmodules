@@ -1,0 +1,18 @@
+[submodule "submodules/AG_openfast"]
+	path = submodules/AG_openfast
+	url = https://github.com/abhineet-gupta/AG_openfast.git
+[submodule "submodules/AG_ROSCO"]
+	path = submodules/AG_ROSCO
+	url = https://github.com/abhineet-gupta/AG_ROSCO.git
+[submodule "submodules/AG_openfast_toolbox"]
+	path = submodules/AG_openfast_toolbox
+	url = https://github.com/abhineet-gupta/AG_openfast_toolbox.git
+[submodule "submodules/AG_windtools"]
+	path = submodules/AG_windtools
+	url = https://github.com/abhineet-gupta/AG_windtools.git
+[submodule "submodules/stable-baselines3"]
+	path = submodules/stable-baselines3
+	url = https://github.com/DLR-RM/stable-baselines3.git
+[submodule "submodules/floris"]
+	path = submodules/floris
+	url = https://github.com/NREL/floris.git

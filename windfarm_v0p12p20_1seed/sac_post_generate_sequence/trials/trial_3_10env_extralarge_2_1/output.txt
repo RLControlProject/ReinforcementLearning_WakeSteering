@@ -1,0 +1,127 @@
+/ascldap/users/kbrown1/.conda/envs/RLControlEnv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/vec_monitor.py:44: UserWarning: The environment is already wrapped with a `Monitor` wrapperbut you are wrapping it with a `VecMonitor` wrapper, the `Monitor` statistics will beoverwritten by the `VecMonitor` ones.
+  warnings.warn(
+Importing best hyperparameters:
+   learning_rate  learning_starts  ...  target_entropy_multiplier         0
+0       0.044476               93  ...                          1  0.127383
+
+[1 rows x 5 columns]
+Num timesteps: 500
+Previous best mean reward: -inf - Current mean reward per episode: -29.15
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 1000
+Previous best mean reward: -29.15 - Current mean reward per episode: -7.47
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 1500
+Previous best mean reward: -7.47 - Current mean reward per episode: -2.79
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 2000
+Previous best mean reward: -2.79 - Current mean reward per episode: -2.15
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 2500
+Previous best mean reward: -2.15 - Current mean reward per episode: -1.91
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 3000
+Previous best mean reward: -1.91 - Current mean reward per episode: -1.73
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 3500
+Previous best mean reward: -1.73 - Current mean reward per episode: -1.70
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 4000
+Previous best mean reward: -1.70 - Current mean reward per episode: -2.69
+Num timesteps: 4500
+Previous best mean reward: -1.70 - Current mean reward per episode: -1.54
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 5000
+Previous best mean reward: -1.54 - Current mean reward per episode: -1.87
+Num timesteps: 5500
+Previous best mean reward: -1.54 - Current mean reward per episode: -3.41
+Num timesteps: 6000
+Previous best mean reward: -1.54 - Current mean reward per episode: -1.74
+Num timesteps: 6500
+Previous best mean reward: -1.54 - Current mean reward per episode: -2.43
+Num timesteps: 7000
+Previous best mean reward: -1.54 - Current mean reward per episode: -0.45
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 7500
+Previous best mean reward: -0.45 - Current mean reward per episode: -0.81
+Num timesteps: 8000
+Previous best mean reward: -0.45 - Current mean reward per episode: -1.81
+Num timesteps: 8500
+Previous best mean reward: -0.45 - Current mean reward per episode: -1.99
+Num timesteps: 9000
+Previous best mean reward: -0.45 - Current mean reward per episode: -1.30
+Num timesteps: 9500
+Previous best mean reward: -0.45 - Current mean reward per episode: -2.67
+Num timesteps: 10000
+Previous best mean reward: -0.45 - Current mean reward per episode: -2.67
+Num timesteps: 10500
+Previous best mean reward: -0.45 - Current mean reward per episode: -2.62
+Num timesteps: 11000
+Previous best mean reward: -0.45 - Current mean reward per episode: -1.77
+Num timesteps: 11500
+Previous best mean reward: -0.45 - Current mean reward per episode: -1.20
+Num timesteps: 12000
+Previous best mean reward: -0.45 - Current mean reward per episode: -2.07
+Num timesteps: 12500
+Previous best mean reward: -0.45 - Current mean reward per episode: -0.34
+Saving new best model to /tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20_1seed/sac_post_generate_sequence/trials/trial_3_10env_extralarge_2_1/best_model
+Num timesteps: 13000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.53
+Num timesteps: 13500
+Previous best mean reward: -0.34 - Current mean reward per episode: -0.96
+Num timesteps: 14000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.46
+Num timesteps: 14500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.67
+Num timesteps: 15000
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.65
+Num timesteps: 15500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.64
+Num timesteps: 16000
+Previous best mean reward: -0.34 - Current mean reward per episode: -0.91
+Num timesteps: 16500
+Previous best mean reward: -0.34 - Current mean reward per episode: -0.98
+Num timesteps: 17000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.94
+Num timesteps: 17500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.25
+Num timesteps: 18000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.14
+Num timesteps: 18500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.39
+Num timesteps: 19000
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.33
+Num timesteps: 19500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.27
+Num timesteps: 20000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.09
+Num timesteps: 20500
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.42
+Num timesteps: 21000
+Previous best mean reward: -0.34 - Current mean reward per episode: -3.06
+Num timesteps: 21500
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.15
+Num timesteps: 22000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.44
+Num timesteps: 22500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.40
+Num timesteps: 23000
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.58
+Num timesteps: 23500
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.50
+Num timesteps: 24000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.19
+Num timesteps: 24500
+Previous best mean reward: -0.34 - Current mean reward per episode: -1.41
+Num timesteps: 25000
+Previous best mean reward: -0.34 - Current mean reward per episode: -2.12
