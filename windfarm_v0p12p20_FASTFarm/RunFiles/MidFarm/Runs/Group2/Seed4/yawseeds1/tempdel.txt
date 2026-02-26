@@ -1,0 +1,92 @@
+55c55
+<         tb_log_name = 'trial_3_10env_1'
+---
+>         tb_log_name = 'trial_5_10env_1'
+57c57
+<         tb_log_name = 'trial_3_10env_medium_1'
+---
+>         tb_log_name = 'trial_5_10env_medium_1'
+59c59
+<         tb_log_name = 'trial_3_10env_large_1'
+---
+>         tb_log_name = 'trial_5_10env_large_1'
+67c67
+<     env_kwargs['initialyaw'] = 'ZeroYaw' # 'ZeroYaw' 'FLORISYaw'
+---
+>     env_kwargs['initialyaw'] = 'FLORISYaw' # 'ZeroYaw' 'FLORISYaw'
+99c99
+<         load_pretrained_model = False
+---
+>         load_pretrained_model = True
+101,120d100
+<             policy_kwargs = dict(net_arch=[256, 256])
+<             model = SAC(
+<                 SACMlpPolicy, 
+<                 venv,
+<                 policy_kwargs=policy_kwargs,
+<                 learning_rate=summary['learning_rate'].iloc[0],
+<                 learning_starts = int(summary['learning_starts'].iloc[0]),
+<                 train_freq = 1,
+<                 action_noise = action_noise,
+<                 ent_coef = 'auto_'+str(summary['ent_coef'].iloc[0]),
+<                 target_entropy=-summary['target_entropy_multiplier'].iloc[0]*num_turbines,
+<                 batch_size = 25000,
+<                 use_sde = False,
+<                 gamma = 0,
+<                 gradient_steps=-1, # -1 sets it to perform as many graident steps as transitions collected, which enables multi-processing to be effectiv in reducing wall-clock time (see https://github.com/DLR-RM/stable-baselines3/blob/master/docs/guide/examples.rst) 
+<                 # replay_buffer_class=PrioritizedReplayBuffer,
+<                 verbose=0,
+<                 tensorboard_log=log_dir,
+<             )
+<         else:
+122,134c102,137
+<             # if num_turbines == 3:
+<             #     subdirectory = "sac_post_generate_sequence/trials/trial_4_10env_moremismatch_1"
+<             # elif num_turbines == 18:
+<             #     subdirectory = "sac_post_generate_sequence/trials/trial_4_10env_large_moremismatch_1"
+<             # modelname = "best_model.zip"
+<             # path = os.path.join(subdirectory,modelname)
+<             # model = SAC.load(path=path,env=venv,#policy_kwargs=policy_kwargs,
+<             #     batch_size=25000, gamma=0, action_noise=action_noise, # tau = tau
+<             #     ent_coef='auto_'+str(summary['ent_coef'].iloc[0]), target_entropy=-summary['target_entropy_multiplier'].iloc[0]*num_turbines,
+<             #     learning_rate=summary['learning_rate'].iloc[0], 
+<             #     learning_starts = 0, train_freq = int(summary['train_freq'].iloc[0]), #buffer_size = buffer_size,
+<             #     #replay_buffer_class=HerReplayBuffer,replay_buffer_kwargs=dict(n_sampled_goal=n_sampled_goal,goal_selection_strategy=goal_selection_strategy),
+<             #     use_sde = False, gradient_steps=-1,verbose=0,device="auto",tensorboard_log=log_dir) # stats_window_size=stats_window_size,
+---
+>             # policy_kwargs = dict(net_arch=[256, 256])
+>             # model = SAC( 
+>             #     SACMlpPolicy, 
+>             #     venv,
+>             #     policy_kwargs=policy_kwargs,
+>             #     learning_rate=0.0015154970124830545,
+>             #     learning_starts = 59,
+>             #     train_freq = 4,
+>             #     tau=0.0029583902260094342,
+>             #     target_update_interval= 4,
+>             #     action_noise = action_noise,
+>             #     ent_coef = 'auto_'+str(0.228446607051276),
+>             #     batch_size = 25000,
+>             #     use_sde = False,
+>             #     gamma = 0,
+>             #     gradient_steps=-1, # -1 sets it to perform as many graident steps as transitions collected, which enables multi-processing to be effectiv in reducing wall-clock time (see https://github.com/DLR-RM/stable-baselines3/blob/master/docs/guide/examples.rst) 
+>             #     # replay_buffer_class=PrioritizedReplayBuffer,
+>             #     verbose=0,
+>             #     tensorboard_log=log_dir,
+>             # )
+>         else:
+>             if num_turbines == 3:
+>                 subdirectory = "sac_post_generate_sequence/trials/trial_4_10env_moremismatch_1"
+>             elif num_turbines == 8:
+>                 subdirectory = "sac_post_generate_sequence/trials/trial_4_10env_medium_moremismatch_1"
+>             elif num_turbines == 18:
+>                 subdirectory = "sac_post_generate_sequence/trials/trial_4_10env_large_moremismatch_1"
+>             modelname = "best_model.zip"
+>             path = os.path.join(subdirectory,modelname)
+>             model = SAC.load(path=path,env=venv,#policy_kwargs=policy_kwargs,
+>                 batch_size=25000, gamma=0, action_noise=action_noise, # tau = tau
+>                 ent_coef='auto_'+str(summary['ent_coef'].iloc[0]), target_entropy=-summary['target_entropy_multiplier'].iloc[0]*num_turbines,
+>                 learning_rate=summary['learning_rate'].iloc[0], 
+>                 learning_starts = 0, train_freq = int(summary['train_freq'].iloc[0]), #buffer_size = buffer_size,
+>                 #replay_buffer_class=HerReplayBuffer,replay_buffer_kwargs=dict(n_sampled_goal=n_sampled_goal,goal_selection_strategy=goal_selection_strategy),
+>                 use_sde = False, gradient_steps=-1,verbose=0,device="auto",tensorboard_log=log_dir) # stats_window_size=stats_window_size,

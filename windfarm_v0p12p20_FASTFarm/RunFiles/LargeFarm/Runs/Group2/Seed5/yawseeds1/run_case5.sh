@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#SBATCH --account=ssc
+#SBATCH --time=10-00:00:00
+#SBATCH --nodes=1
+##SBATCH --partition=debug
+#SBATCH --job-name=RL_Case5_Seed5
+#SBATCH -o out_RL_Case5_Seed5
+
+module purge
+module load tmux
+module load git
+module load intel-oneapi-mpi
+module load intel-oneapi-mkl
+module load intel-oneapi-compilers
+module load conda
+conda activate /kfs2/projects/rlfarmcontr/RLControl_Phase1End/mambaenv
+
+rm -f log.txt
+
+python sac_post_generate_sequence_5_10env_large_1.py
