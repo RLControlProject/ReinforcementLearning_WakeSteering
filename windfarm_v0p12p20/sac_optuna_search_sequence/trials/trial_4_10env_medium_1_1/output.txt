@@ -1,0 +1,429 @@
+[I 2025-11-21 12:53:51,080] A new study created in memory with name: my_study
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20/sac_optuna_search_sequence_4_10env_medium_1.py:86: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-1) # original: 1e-6
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20/sac_optuna_search_sequence_4_10env_medium_1.py:90: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  ent_coef = trial.suggest_loguniform("ent_coef", 0.001, 0.9) # original: 0.2
+/ascldap/users/kbrown1/.conda/envs/RLControlEnv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/vec_monitor.py:44: UserWarning: The environment is already wrapped with a `Monitor` wrapperbut you are wrapping it with a `VecMonitor` wrapper, the `Monitor` statistics will beoverwritten by the `VecMonitor` ones.
+  warnings.warn(
+/ascldap/users/kbrown1/.conda/envs/RLControlEnv/lib/python3.10/site-packages/stable_baselines3/common/vec_env/vec_monitor.py:44: UserWarning: The environment is already wrapped with a `Monitor` wrapperbut you are wrapping it with a `VecMonitor` wrapper, the `Monitor` statistics will beoverwritten by the `VecMonitor` ones.
+  warnings.warn(
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20/sac_optuna_search_sequence_4_10env_medium_1.py:86: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-1) # original: 1e-6
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20/sac_optuna_search_sequence_4_10env_medium_1.py:90: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  ent_coef = trial.suggest_loguniform("ent_coef", 0.001, 0.9) # original: 0.2
+[I 2025-11-21 13:48:50,019] Trial 0 finished with value: -4.219041364873764 and parameters: {'learning_rate': 0.0003295177107036174, 'learning_starts': 177, 'ent_coef': 0.005777513747648515}. Best is trial 0 with value: -4.219041364873764.
+Num trials: 1
+Mean: -4.219041364873764
+Std: 0.0
+[I 2025-11-21 13:48:51,783] Trial 12 finished with value: -3.7360355286594786 and parameters: {'learning_rate': 0.06407907031719916, 'learning_starts': 195, 'ent_coef': 0.43338464480217037}. Best is trial 12 with value: -3.7360355286594786.
+Num trials: 1
+Mean: -3.7360355286594786
+Std: 0.0
+[I 2025-11-21 13:48:56,042] Trial 22 finished with value: -2.918354058862942 and parameters: {'learning_rate': 0.04158983139530496, 'learning_starts': 182, 'ent_coef': 0.01941233108323269}. Best is trial 22 with value: -2.918354058862942.
+Num trials: 1
+Mean: -2.918354058862942
+Std: 0.0
+[I 2025-11-21 13:48:58,581] Trial 16 finished with value: -4.943850769430399 and parameters: {'learning_rate': 0.00019719779202925436, 'learning_starts': 186, 'ent_coef': 0.002415745038794409}. Best is trial 22 with value: -2.918354058862942.
+Num trials: 1
+Mean: -4.943850769430399
+Std: 0.0
+[I 2025-11-21 13:48:59,715] Trial 7 finished with value: -22.50688193144847 and parameters: {'learning_rate': 0.07303848964890655, 'learning_starts': 174, 'ent_coef': 0.007550483609442493}. Best is trial 22 with value: -2.918354058862942.
+Num trials: 1
+Mean: -22.50688193144847
+Std: 0.0
+[I 2025-11-21 13:49:08,522] Trial 4 finished with value: -2.4388136758985373 and parameters: {'learning_rate': 0.004567896207769599, 'learning_starts': 171, 'ent_coef': 0.0034930716851496683}. Best is trial 4 with value: -2.4388136758985373.
+Num trials: 1
+Mean: -2.4388136758985373
+Std: 0.0
+[I 2025-11-21 13:49:10,411] Trial 13 finished with value: 0.12529707842116874 and parameters: {'learning_rate': 0.0021310913932025654, 'learning_starts': 176, 'ent_coef': 0.043629801645164466}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: 0.12529707842116874
+Std: 0.0
+[I 2025-11-21 13:49:27,972] Trial 21 finished with value: -2.0345332331957624 and parameters: {'learning_rate': 0.0009799183050507386, 'learning_starts': 142, 'ent_coef': 0.08322154520156798}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.0345332331957624
+Std: 0.0
+[I 2025-11-21 13:49:29,959] Trial 8 finished with value: -0.028834869185744072 and parameters: {'learning_rate': 0.005223741772389275, 'learning_starts': 144, 'ent_coef': 0.009312883611100706}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.028834869185744072
+Std: 0.0
+[I 2025-11-21 13:49:30,972] Trial 20 finished with value: -3.2288920985669165 and parameters: {'learning_rate': 0.0004965680594885186, 'learning_starts': 140, 'ent_coef': 0.00945952835425394}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -3.2288920985669165
+Std: 0.0
+[I 2025-11-21 13:49:34,184] Trial 17 finished with value: -5.0769337101394285 and parameters: {'learning_rate': 0.00015481226103691777, 'learning_starts': 147, 'ent_coef': 0.0011364820172924323}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -5.0769337101394285
+Std: 0.0
+[I 2025-11-21 13:49:50,438] Trial 15 finished with value: -1.9279760677648385 and parameters: {'learning_rate': 0.00113774503601655, 'learning_starts': 135, 'ent_coef': 0.0014853342735290597}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.9279760677648385
+Std: 0.0
+[I 2025-11-21 13:50:03,143] Trial 18 finished with value: -3.373263985858782 and parameters: {'learning_rate': 0.00041563106700588133, 'learning_starts': 103, 'ent_coef': 0.3158764035573538}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -3.373263985858782
+Std: 0.0
+[I 2025-11-21 13:50:17,467] Trial 9 finished with value: -2.549945383990288 and parameters: {'learning_rate': 0.0005307981773795635, 'learning_starts': 87, 'ent_coef': 0.002057582070777898}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.549945383990288
+Std: 0.0
+[I 2025-11-21 13:50:27,181] Trial 6 finished with value: -2.1100781053368167 and parameters: {'learning_rate': 0.0008104375434001672, 'learning_starts': 84, 'ent_coef': 0.005367422727059651}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.1100781053368167
+Std: 0.0
+[I 2025-11-21 13:50:44,797] Trial 23 finished with value: -1.0232931900416666 and parameters: {'learning_rate': 0.0011974955729443122, 'learning_starts': 60, 'ent_coef': 0.027493200236451226}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.0232931900416666
+Std: 0.0
+[I 2025-11-21 13:50:50,604] Trial 1 finished with value: -1.3943555269561843 and parameters: {'learning_rate': 0.004741198285925875, 'learning_starts': 50, 'ent_coef': 0.026922071915289746}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.3943555269561843
+Std: 0.0
+[I 2025-11-21 13:51:00,648] Trial 24 finished with value: -4.741281087122817 and parameters: {'learning_rate': 0.00013793126795534, 'learning_starts': 49, 'ent_coef': 0.08545720701354131}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -4.741281087122817
+Std: 0.0
+[I 2025-11-21 13:51:01,811] Trial 14 finished with value: -2.892134109241528 and parameters: {'learning_rate': 0.0005024469460636492, 'learning_starts': 48, 'ent_coef': 0.003615181277654367}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.892134109241528
+Std: 0.0
+[I 2025-11-21 13:51:10,245] Trial 10 finished with value: -0.610684560594746 and parameters: {'learning_rate': 0.025901833965730283, 'learning_starts': 67, 'ent_coef': 0.0028386782642364776}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.610684560594746
+Std: 0.0
+[I 2025-11-21 13:51:13,661] Trial 5 finished with value: -3.061541349999369 and parameters: {'learning_rate': 0.0002754249976253262, 'learning_starts': 30, 'ent_coef': 0.0137327379953766}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -3.061541349999369
+Std: 0.0
+[I 2025-11-21 13:51:16,048] Trial 19 finished with value: -1.2913736765007524 and parameters: {'learning_rate': 0.01001618948069729, 'learning_starts': 25, 'ent_coef': 0.18885456825673455}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.2913736765007524
+Std: 0.0
+[I 2025-11-21 13:51:19,566] Trial 11 finished with value: -3.503801428398616 and parameters: {'learning_rate': 0.044840186802418996, 'learning_starts': 23, 'ent_coef': 0.060975947239738364}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -3.503801428398616
+Std: 0.0
+[I 2025-11-21 13:51:31,834] Trial 2 finished with value: -3.5698472122436176 and parameters: {'learning_rate': 0.0001774023955917943, 'learning_starts': 1, 'ent_coef': 0.029659250102228904}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -3.5698472122436176
+Std: 0.0
+[I 2025-11-21 13:51:37,908] Trial 3 finished with value: -2.8603162885145403 and parameters: {'learning_rate': 0.03463559386115728, 'learning_starts': 8, 'ent_coef': 0.0015485698898639931}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.8603162885145403
+Std: 0.0
+[I 2025-11-21 14:34:14,895] Trial 25 finished with value: -0.7142559785384334 and parameters: {'learning_rate': 0.014398847791426684, 'learning_starts': 120, 'ent_coef': 0.0129138542846693}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.7142559785384334
+Std: 0.0
+[I 2025-11-21 14:34:15,881] Trial 30 finished with value: -4.436866820782134 and parameters: {'learning_rate': 0.014807243443108412, 'learning_starts': 116, 'ent_coef': 0.8238216651601344}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -4.436866820782134
+Std: 0.0
+[I 2025-11-21 14:34:16,485] Trial 27 finished with value: -1.7673283591615068 and parameters: {'learning_rate': 0.014995102906407796, 'learning_starts': 119, 'ent_coef': 0.04707696923003514}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.7673283591615068
+Std: 0.0
+[I 2025-11-21 14:34:20,925] Trial 26 finished with value: -3.0284550558333794 and parameters: {'learning_rate': 0.01578427212903024, 'learning_starts': 115, 'ent_coef': 0.048254002836521086}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -3.0284550558333794
+Std: 0.0
+[I 2025-11-21 14:34:22,786] Trial 31 finished with value: -1.0375545294296098 and parameters: {'learning_rate': 0.010416919256550288, 'learning_starts': 118, 'ent_coef': 0.05290592592873056}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.0375545294296098
+Std: 0.0
+[I 2025-11-21 14:34:25,123] Trial 29 finished with value: -0.8293356024521477 and parameters: {'learning_rate': 0.017667246635940503, 'learning_starts': 118, 'ent_coef': 0.012283019756138608}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.8293356024521477
+Std: 0.0
+[I 2025-11-21 14:34:26,646] Trial 28 finished with value: -1.0871614294920473 and parameters: {'learning_rate': 0.015600165689910222, 'learning_starts': 117, 'ent_coef': 0.010512675774456174}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.0871614294920473
+Std: 0.0
+[I 2025-11-21 14:39:36,055] Trial 32 finished with value: -2.0399317179652208 and parameters: {'learning_rate': 0.0021930716663138734, 'learning_starts': 161, 'ent_coef': 0.05957257798230912}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.0399317179652208
+Std: 0.0
+[I 2025-11-21 14:39:49,542] Trial 37 finished with value: -1.6342899181484427 and parameters: {'learning_rate': 0.019034724833480034, 'learning_starts': 162, 'ent_coef': 0.04630796128868579}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.6342899181484427
+Std: 0.0
+[I 2025-11-21 14:39:52,274] Trial 36 finished with value: -1.2493846492230916 and parameters: {'learning_rate': 0.0021802640370450497, 'learning_starts': 157, 'ent_coef': 0.05908559911244122}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.2493846492230916
+Std: 0.0
+[I 2025-11-21 14:39:54,439] Trial 35 finished with value: -2.8582351486778332 and parameters: {'learning_rate': 0.002232837350000699, 'learning_starts': 157, 'ent_coef': 0.06326659233079265}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.8582351486778332
+Std: 0.0
+[I 2025-11-21 14:39:57,388] Trial 34 finished with value: -1.927339231012196 and parameters: {'learning_rate': 0.0020075940615246857, 'learning_starts': 159, 'ent_coef': 0.057589936884731734}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.927339231012196
+Std: 0.0
+[I 2025-11-21 14:39:59,425] Trial 33 finished with value: -0.67526577778714 and parameters: {'learning_rate': 0.019060777018573193, 'learning_starts': 155, 'ent_coef': 0.8177273181602699}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.67526577778714
+Std: 0.0
+[I 2025-11-21 14:41:21,595] Trial 48 finished with value: -1.462739090130377 and parameters: {'learning_rate': 0.0024209964157789997, 'learning_starts': 161, 'ent_coef': 0.005675127075566466}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.462739090130377
+Std: 0.0
+[I 2025-11-21 14:41:23,430] Trial 38 finished with value: -1.6212709405516899 and parameters: {'learning_rate': 0.0024164366413777227, 'learning_starts': 158, 'ent_coef': 0.004370759954175684}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.6212709405516899
+Std: 0.0
+[I 2025-11-21 14:41:24,595] Trial 46 finished with value: -1.7018202025549467 and parameters: {'learning_rate': 0.0025230747303654874, 'learning_starts': 162, 'ent_coef': 0.00593789876763146}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.7018202025549467
+Std: 0.0
+[I 2025-11-21 14:41:25,122] Trial 39 finished with value: -1.1804459564889274 and parameters: {'learning_rate': 0.0023512911786728956, 'learning_starts': 159, 'ent_coef': 0.0052534148687010795}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -1.1804459564889274
+Std: 0.0
+[I 2025-11-21 14:41:25,162] Trial 49 finished with value: -2.3604171513966485 and parameters: {'learning_rate': 0.002498086779315387, 'learning_starts': 159, 'ent_coef': 0.005748074683625327}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.3604171513966485
+Std: 0.0
+[I 2025-11-21 14:41:27,690] Trial 47 finished with value: -0.5839918239958538 and parameters: {'learning_rate': 0.0023127623107816785, 'learning_starts': 161, 'ent_coef': 0.005383810838194396}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.5839918239958538
+Std: 0.0
+[I 2025-11-21 14:41:32,589] Trial 40 finished with value: -2.456790271150411 and parameters: {'learning_rate': 0.00231186488176609, 'learning_starts': 158, 'ent_coef': 0.004743810863780267}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -2.456790271150411
+Std: 0.0
+[I 2025-11-21 14:41:34,812] Trial 43 finished with value: -4.060726085245503 and parameters: {'learning_rate': 0.00214174914147135, 'learning_starts': 159, 'ent_coef': 0.005302374404179945}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -4.060726085245503
+Std: 0.0
+[I 2025-11-21 14:41:36,127] Trial 44 finished with value: -0.029199134997250197 and parameters: {'learning_rate': 0.002295915948295061, 'learning_starts': 156, 'ent_coef': 0.006382724612561559}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.029199134997250197
+Std: 0.0
+[I 2025-11-21 14:41:36,875] Trial 41 finished with value: -0.5713662737354087 and parameters: {'learning_rate': 0.0023690904318044484, 'learning_starts': 158, 'ent_coef': 0.005615399354829531}. Best is trial 13 with value: 0.12529707842116874.
+Num trials: 1
+Mean: -0.5713662737354087
+Std: 0.0
+[I 2025-11-21 14:41:38,594] Trial 42 finished with value: 0.12987300422089437 and parameters: {'learning_rate': 0.0024943901290172955, 'learning_starts': 159, 'ent_coef': 0.01814168936894867}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: 0.12987300422089437
+Std: 0.0
+[I 2025-11-21 14:41:40,621] Trial 45 finished with value: -2.4925913069176304 and parameters: {'learning_rate': 0.0022190048058508332, 'learning_starts': 158, 'ent_coef': 0.0046868272659449164}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.4925913069176304
+Std: 0.0
+[I 2025-11-21 15:13:18,284] Trial 56 finished with value: -2.963404740157301 and parameters: {'learning_rate': 0.004484395474638173, 'learning_starts': 199, 'ent_coef': 0.01715695758248259}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.963404740157301
+Std: 0.0
+[I 2025-11-21 15:13:20,868] Trial 55 finished with value: -6.8819576645085325 and parameters: {'learning_rate': 0.004528126893795554, 'learning_starts': 197, 'ent_coef': 0.018923998515646155}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -6.8819576645085325
+Std: 0.0
+[I 2025-11-21 15:13:22,199] Trial 52 finished with value: -3.5755196161237124 and parameters: {'learning_rate': 0.005015244667888134, 'learning_starts': 196, 'ent_coef': 0.019191118118097966}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -3.5755196161237124
+Std: 0.0
+[I 2025-11-21 15:13:22,796] Trial 53 finished with value: -0.7747620554514043 and parameters: {'learning_rate': 0.006038118271663933, 'learning_starts': 194, 'ent_coef': 0.020141869004939257}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -0.7747620554514043
+Std: 0.0
+[I 2025-11-21 15:13:25,240] Trial 50 finished with value: -1.8420625024228052 and parameters: {'learning_rate': 0.004797405402364679, 'learning_starts': 199, 'ent_coef': 0.02109107225941052}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.8420625024228052
+Std: 0.0
+[I 2025-11-21 15:13:28,590] Trial 54 finished with value: -1.2170855955502171 and parameters: {'learning_rate': 0.004873559354242655, 'learning_starts': 199, 'ent_coef': 0.019879011929201686}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.2170855955502171
+Std: 0.0
+[I 2025-11-21 15:13:38,675] Trial 51 finished with value: -3.2176841321969682 and parameters: {'learning_rate': 0.0033357312165071015, 'learning_starts': 172, 'ent_coef': 0.017392918627632085}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -3.2176841321969682
+Std: 0.0
+[I 2025-11-21 15:28:43,773] Trial 61 finished with value: -1.1592054205937248 and parameters: {'learning_rate': 0.0013636789194487466, 'learning_starts': 180, 'ent_coef': 0.00783436762686968}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.1592054205937248
+Std: 0.0
+[I 2025-11-21 15:28:48,554] Trial 59 finished with value: -2.664438293578454 and parameters: {'learning_rate': 0.001581283410744735, 'learning_starts': 177, 'ent_coef': 0.007439189333316991}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.664438293578454
+Std: 0.0
+[I 2025-11-21 15:29:21,828] Trial 57 finished with value: -1.9043820875507693 and parameters: {'learning_rate': 0.0012495523027679692, 'learning_starts': 146, 'ent_coef': 0.007815489089950884}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.9043820875507693
+Std: 0.0
+[I 2025-11-21 15:29:22,462] Trial 62 finished with value: -0.3729803897551687 and parameters: {'learning_rate': 0.0014687236373613422, 'learning_starts': 130, 'ent_coef': 0.008105439571011406}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -0.3729803897551687
+Std: 0.0
+[I 2025-11-21 15:29:28,711] Trial 63 finished with value: -1.8905061603070938 and parameters: {'learning_rate': 0.0016122299428537757, 'learning_starts': 131, 'ent_coef': 0.007852225285854678}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.8905061603070938
+Std: 0.0
+[I 2025-11-21 15:29:30,418] Trial 60 finished with value: -0.035198504743603566 and parameters: {'learning_rate': 0.0014992136889797974, 'learning_starts': 131, 'ent_coef': 0.008424206988995623}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -0.035198504743603566
+Std: 0.0
+[I 2025-11-21 15:29:34,855] Trial 66 finished with value: -2.7302130725708245 and parameters: {'learning_rate': 0.001230695828410569, 'learning_starts': 132, 'ent_coef': 0.00849871866974946}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.7302130725708245
+Std: 0.0
+[I 2025-11-21 15:29:46,895] Trial 58 finished with value: 0.12898292190216878 and parameters: {'learning_rate': 0.001529567111724142, 'learning_starts': 129, 'ent_coef': 0.008821993803050933}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: 0.12898292190216878
+Std: 0.0
+[I 2025-11-21 15:29:49,134] Trial 70 finished with value: -2.2308493361917403 and parameters: {'learning_rate': 0.0007685443580924668, 'learning_starts': 128, 'ent_coef': 0.008045106712442417}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.2308493361917403
+Std: 0.0
+[I 2025-11-21 15:29:50,633] Trial 73 finished with value: -2.253110389375289 and parameters: {'learning_rate': 0.0014157885872167013, 'learning_starts': 182, 'ent_coef': 0.00869736959134853}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.253110389375289
+Std: 0.0
+[I 2025-11-21 15:30:01,971] Trial 68 finished with value: -0.90288014097064 and parameters: {'learning_rate': 0.0014600828593821983, 'learning_starts': 182, 'ent_coef': 0.007257661163845463}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -0.90288014097064
+Std: 0.0
+[I 2025-11-21 15:30:09,004] Trial 71 finished with value: -3.3303001675919073 and parameters: {'learning_rate': 0.001528971460637259, 'learning_starts': 179, 'ent_coef': 0.00789444147027381}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -3.3303001675919073
+Std: 0.0
+[I 2025-11-21 15:30:32,586] Trial 64 finished with value: -2.857660374040548 and parameters: {'learning_rate': 0.0012618513885541806, 'learning_starts': 132, 'ent_coef': 0.008142873713037358}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.857660374040548
+Std: 0.0
+[I 2025-11-21 15:30:36,669] Trial 72 finished with value: -1.0130781600167016 and parameters: {'learning_rate': 0.0015259367150039897, 'learning_starts': 128, 'ent_coef': 0.008247667018162317}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.0130781600167016
+Std: 0.0
+[I 2025-11-21 15:30:38,512] Trial 74 finished with value: -2.772755947056813 and parameters: {'learning_rate': 0.0012759006259969127, 'learning_starts': 129, 'ent_coef': 0.007655343253765593}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.772755947056813
+Std: 0.0
+[I 2025-11-21 15:30:39,914] Trial 69 finished with value: -1.2815233641434849 and parameters: {'learning_rate': 0.001434206054105124, 'learning_starts': 130, 'ent_coef': 0.009049360734440424}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -1.2815233641434849
+Std: 0.0
+[I 2025-11-21 15:30:41,507] Trial 67 finished with value: -2.087871768699265 and parameters: {'learning_rate': 0.0014883500732029613, 'learning_starts': 131, 'ent_coef': 0.0031095718424293123}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -2.087871768699265
+Std: 0.0
+[I 2025-11-21 15:30:43,173] Trial 65 finished with value: -0.04520029733675139 and parameters: {'learning_rate': 0.0014976499298157352, 'learning_starts': 131, 'ent_coef': 0.00821007876474826}. Best is trial 42 with value: 0.12987300422089437.
+Num trials: 1
+Mean: -0.04520029733675139
+Std: 0.0
+[I 2025-11-21 15:54:57,821] Trial 76 finished with value: -1.916798116906427 and parameters: {'learning_rate': 0.000770557189990955, 'learning_starts': 105, 'ent_coef': 0.0122274524051277}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 15:55:02,639] Trial 75 finished with value: -1.1124289288469325 and parameters: {'learning_rate': 0.0008090428484486565, 'learning_starts': 108, 'ent_coef': 0.011417339065819626}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 15:55:06,265] Trial 77 finished with value: -3.1838765343163278 and parameters: {'learning_rate': 0.0008553251663467527, 'learning_starts': 109, 'ent_coef': 0.03533446389689451}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 15:55:06,487] Trial 79 finished with value: -1.2511033081471759 and parameters: {'learning_rate': 0.0008621473496537169, 'learning_starts': 103, 'ent_coef': 0.03760566024659877}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 15:55:07,082] Trial 78 finished with value: -2.5053967767343504 and parameters: {'learning_rate': 0.0008711983894754051, 'learning_starts': 108, 'ent_coef': 0.03270592585261784}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 15:55:07,948] Trial 80 finished with value: -2.158370003395091 and parameters: {'learning_rate': 0.000835970385925451, 'learning_starts': 108, 'ent_coef': 0.035486343151995434}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 15:55:08,994] Trial 81 finished with value: -2.7333492820990504 and parameters: {'learning_rate': 0.0008418833268188362, 'learning_starts': 109, 'ent_coef': 0.03564608889375558}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:13:57,973] Trial 95 finished with value: -3.1604306205327246 and parameters: {'learning_rate': 0.0030772552815437806, 'learning_starts': 140, 'ent_coef': 0.0037628741583166157}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:02,370] Trial 87 finished with value: -1.12105410364072 and parameters: {'learning_rate': 0.0033738897692019913, 'learning_starts': 149, 'ent_coef': 0.0038685733282943086}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:04,898] Trial 99 finished with value: -0.9429173567723403 and parameters: {'learning_rate': 0.006693331880297287, 'learning_starts': 148, 'ent_coef': 0.003667245933533158}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:08,745] Trial 85 finished with value: -2.3781462329229788 and parameters: {'learning_rate': 0.003122803813470653, 'learning_starts': 151, 'ent_coef': 0.01536912414603123}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:08,887] Trial 96 finished with value: -1.3086326561370225 and parameters: {'learning_rate': 0.0035724192221811934, 'learning_starts': 151, 'ent_coef': 0.014756513959100395}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:11,152] Trial 89 finished with value: -1.0117008639675131 and parameters: {'learning_rate': 0.0036287612423290235, 'learning_starts': 150, 'ent_coef': 0.003955328014062358}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:16,121] Trial 88 finished with value: -1.5896508561982248 and parameters: {'learning_rate': 0.0031444461526198074, 'learning_starts': 149, 'ent_coef': 0.0037839978752429964}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:16,567] Trial 83 finished with value: -5.168470346331386 and parameters: {'learning_rate': 0.003432960907862547, 'learning_starts': 141, 'ent_coef': 0.01490004749207481}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:20,883] Trial 98 finished with value: -0.5553660518796858 and parameters: {'learning_rate': 0.003284725071858688, 'learning_starts': 139, 'ent_coef': 0.01476788333723815}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:21,147] Trial 86 finished with value: -2.503446573458836 and parameters: {'learning_rate': 0.003224636444807708, 'learning_starts': 139, 'ent_coef': 0.01417609804982752}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:28,440] Trial 90 finished with value: -0.5187297394885785 and parameters: {'learning_rate': 0.0032225849771693785, 'learning_starts': 139, 'ent_coef': 0.00395066600480945}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:38,609] Trial 91 finished with value: -2.427502963678818 and parameters: {'learning_rate': 0.0031850995354405125, 'learning_starts': 139, 'ent_coef': 0.003873726090949887}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:41,420] Trial 93 finished with value: -3.2735202457918957 and parameters: {'learning_rate': 0.0037461176217106914, 'learning_starts': 95, 'ent_coef': 0.0034646566407157547}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:42,098] Trial 97 finished with value: -0.2696636338688544 and parameters: {'learning_rate': 0.0035433818375683207, 'learning_starts': 91, 'ent_coef': 0.003695692429357119}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:46,835] Trial 82 finished with value: -1.913250379717303 and parameters: {'learning_rate': 0.0034461769766518427, 'learning_starts': 94, 'ent_coef': 0.0038437162756604624}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:14:55,770] Trial 84 finished with value: -3.5694322086578834 and parameters: {'learning_rate': 0.0033448391284415214, 'learning_starts': 88, 'ent_coef': 0.0038892466540143534}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:15:00,611] Trial 92 finished with value: -0.34286606200267733 and parameters: {'learning_rate': 0.0033131891191502784, 'learning_starts': 92, 'ent_coef': 0.015069217699037893}. Best is trial 42 with value: 0.12987300422089437.
+[I 2025-11-21 16:15:04,496] Trial 94 finished with value: -0.14680661982536625 and parameters: {'learning_rate': 0.0031443880525904534, 'learning_starts': 92, 'ent_coef': 0.014422564444289044}. Best is trial 42 with value: 0.12987300422089437.
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20/sac_optuna_search_sequence_4_10env_medium_1.py:271: ExperimentalWarning:
+
+plot_rank is experimental (supported from v3.2.0). The interface can change in the future.
+
+/tscratch/kbrown1/Reinforcement_Learning/RLControl/windfarm_v0p12p20/sac_optuna_search_sequence_4_10env_medium_1.py:274: ExperimentalWarning:
+
+plot_timeline is experimental (supported from v3.2.0). The interface can change in the future.
+
+Num trials: 1
+Mean: -1.916798116906427
+Std: 0.0
+Num trials: 1
+Mean: -1.1124289288469325
+Std: 0.0
+Num trials: 1
+Mean: -3.1838765343163278
+Std: 0.0
+Num trials: 1
+Mean: -1.2511033081471759
+Std: 0.0
+Num trials: 1
+Mean: -2.5053967767343504
+Std: 0.0
+Num trials: 1
+Mean: -2.158370003395091
+Std: 0.0
+Num trials: 1
+Mean: -2.7333492820990504
+Std: 0.0
+Num trials: 1
+Mean: -3.1604306205327246
+Std: 0.0
+Num trials: 1
+Mean: -1.12105410364072
+Std: 0.0
+Num trials: 1
+Mean: -0.9429173567723403
+Std: 0.0
+Num trials: 1
+Mean: -2.3781462329229788
+Std: 0.0
+Num trials: 1
+Mean: -1.3086326561370225
+Std: 0.0
+Num trials: 1
+Mean: -1.0117008639675131
+Std: 0.0
+Num trials: 1
+Mean: -1.5896508561982248
+Std: 0.0
+Num trials: 1
+Mean: -5.168470346331386
+Std: 0.0
+Num trials: 1
+Mean: -0.5553660518796858
+Std: 0.0
+Num trials: 1
+Mean: -2.503446573458836
+Std: 0.0
+Num trials: 1
+Mean: -0.5187297394885785
+Std: 0.0
+Num trials: 1
+Mean: -2.427502963678818
+Std: 0.0
+Num trials: 1
+Mean: -3.2735202457918957
+Std: 0.0
+Num trials: 1
+Mean: -0.2696636338688544
+Std: 0.0
+Num trials: 1
+Mean: -1.913250379717303
+Std: 0.0
+Num trials: 1
+Mean: -3.5694322086578834
+Std: 0.0
+Num trials: 1
+Mean: -0.34286606200267733
+Std: 0.0
+Num trials: 1
+Mean: -0.14680661982536625
+Std: 0.0
+Best Hyperparameters: {'learning_rate': 0.0024943901290172955, 'learning_starts': 159, 'ent_coef': 0.01814168936894867}
+Best Mean Reward: 0.12987300422089437
+Average of Top Five Hyperparameters:
+ent_coef: 0.01725781860816527
+learning_rate: 0.002734941270925668
+learning_starts: 152.8
+Average of Top Five Rewards:
+0.06522380007224753

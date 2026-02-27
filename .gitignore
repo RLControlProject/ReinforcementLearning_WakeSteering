@@ -1,0 +1,14 @@
+*.out
+*.outb
+*.log
+*.vkt
+*.so
+*.png
+build/
+vtk_ff/
+*_log_dir_*/
+*.svg
+*.pkl
+previous_versions/
+notes
+unused
