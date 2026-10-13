@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --account=rlfarmcontr
+#SBATCH --time=00-04:00:00
+#SBATCH --nodes=1
+##SBATCH --partition=debug
+#SBATCH --job-name=baseline0.025
+#SBATCH -o out_base0.025
+
+module purge
+module load tmux
+module load git
+module load intel-oneapi-mpi
+module load intel-oneapi-mkl
+module load intel-oneapi-compilers
+module load mamba
+mamba activate /kfs2/projects/rlfarmcontr/RLControl_Phase1End/mambaenv
+
+python BaselinePerformance.py 0.025
